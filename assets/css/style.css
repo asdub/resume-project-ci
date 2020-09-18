@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;200;300;400;500;600;700&display=swap');
+
+/*--- COLOURS ----*/
+.bg-color-name-title {
+    background-color: #204530;
+}
+
+.bg-color-three-reasons {
+    background-color: #e2e2e2;
+}
+
+.ui-menu-color-home {
+    background-color: #e5d1cb;
+}
+
+.ui-menu-color-resume {
+    background-color: #c4ced8;
+}
+
+.ui-menu-color-contact {
+    background-color: #dcd6d3;
+}
+
+.ui-menu-color-download {
+    background-color: #d3bcae;
+}
+
+/*--- PADDING/ MARGIN/ TEXT ----*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo" , sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo" , sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+/*--- HEADING ----*/
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.heading h2 span {
+    border-bottom: solid 1px white;
+    padding-bottom: 10px;
+}
+
+.logo {
+    background: url("../images/as.jpg") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out; 
+    -moz-transition: all .5s ease-in-out; 
+    -webkit-transition: all .5s ease-in-out; 
+}
+
+/*--- NAME ----*/
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: white;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 98px;
+    color: white;
+    letter-spacing: 0.055rem;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menu-container {
+    font-size: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #352e23;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top:22px;
+    display: block;
+    color: #352e23;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+}
+
+/*--- HOVER.css ----*/
+
+.hvr-bounce-to-bottom:before {
+    background-color: #204530;
+    height: 90%;
+}
+
+.hvr-bounce-to-bottom:hover span, .hvr-bounce-to-bottom:active span, .hvr-bounce-to-bottom:focus span {
+    transition: all .2s ease-in; 
+    -moz-transition: all .2s ease-in; 
+    -webkit-transition: all .2s ease-in; 
+}
+.hvr-bounce-to-bottom:hover span, .hvr-bounce-to-bottom:active span, .hvr-bounce-to-bottom:focus span {
+    transform: scale(1.1);
+    color: white;
+} 
+
+.hvr-bounce-to-bottom:hover i, .hvr-bounce-to-bottom:active i, .hvr-bounce-to-bottom:focus i {
+    transition: all .2s ease-in; 
+    -moz-transition: all .2s ease-in; 
+    -webkit-transition: all .2s ease-in; 
+}
+
+.hvr-bounce-to-bottom:hover i, .hvr-bounce-to-bottom:active i, .hvr-bounce-to-bottom:focus i {
+    color: white;
+} 
+
+/*--- FOOTER ----*/
+
+footer {
+    background-color: #d3bcae;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+footer p {
+    font-size: 80%;
+    font-weight: 300;
+    line-height: 1.25em;
+    text-align: justify;
+}
+
+footer p a {
+    font-weight: 400;
+    color: #fafafa;
+    text-decoration: none;
+    padding-bottom: 10px;
+    transition: all .2s ease-in; 
+    -moz-transition: all .2s ease-in; 
+    -webkit-transition: all .2s ease-in; 
+}
+
+footer p a:hover, footer p a:focus, footer p a:active  {
+    font-weight: 600;
+    color: #204530;
+    border-bottom: solid 1px #204530;
+    text-decoration: none;
+    padding-bottom: 3px;
+}
+
+.social-icons {
+    font-size: 22px;
+    color: white;
+    transition: all .2s ease-in; 
+    -moz-transition: all .2s ease-in; 
+    -webkit-transition: all .2s ease-in; 
+    padding: 10px 5px;
+    padding-top: 0;
+}
+
+.social-icons:hover, .social-icons:focus, .social-icons:active {
+    color: #204530;
+    transform: scale(1.2);
+    border-bottom: solid 1px #204530;
+    padding-bottom: 3px;
+}
