@@ -125,6 +125,7 @@ header {
 #nav li {
     font-size: 14px;
     padding: 0;
+    width: 25%;
 }
 
 .menuitem {
@@ -368,3 +369,50 @@ footer p a:hover, footer p a:focus, footer p a:active  {
 .timeline-item h4:active {
     transform: scale(1.05);
 }
+
+/*--- CONTACT FORM ----*/
+
+.contact-heading {
+    font-family: "Exo" , sans-serif;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+button[type="submit"] {
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #204530;
+    color: #fafafa;
+    border-radius: 1000rem;
+    border: 0;
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:focus,
+button[type="submit"]:active {
+    background-color: #0a0a0a;
+}
+
+.form-control {
+    background-color: #fafafa;
+    border: 1px solid #d3bcae;
+    border-radius: .45rem;
+    margin-top: 6px;
+}
+
+/*--- MEDIA QUERIES ----*/
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 20px;
+        margin: 0 0;
+        max-width: 70%;
+    }
+}   
